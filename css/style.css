@@ -43,7 +43,12 @@ p {
 	word-spacing:1px;
 	line-height:25px;
 	font-size:14px;
+	font-weight: 400;
 }
+p span {
+	font-weight: 600;
+}
+
 h2 {
 	font-size:15px;
 	color:white!important;
@@ -192,7 +197,7 @@ sub {
 }
 p {
 	font-size: 14px;
-	font-weight:100;
+	font-weight:200;
 	line-height: 28px!important;
 }
 /* ==========================================================================Lists========================================================================== */
@@ -489,9 +494,13 @@ table {
 .hero p {
 	letter-spacing:1px;
 	color:#000;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 15px;
 }
+.hero p span {
+	font-weight: 600;
+}
+
 /* Boucing Arrow Animation */
 @keyframes arrowbounce {
 	from {
@@ -551,11 +560,12 @@ table {
 	border-bottom: none;
 }
 .scrollto--arrow {
-	padding:10px;
+	padding:15px 0px 0px 0px;
 	color:#000;
 }
 .scrollto--arrow img {
 	animation:arrowbounce 1s alternate infinite;
+	width: 20px;
 	-moz-animation:arrowbounce 1s alternate infinite;
 	/* Firefox */-webkit-animation:arrowbounce 1s alternate infinite;
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
@@ -601,6 +611,10 @@ h1.arrow span {
 		font-size:14px;
 }
 
+.color-bg h4 span {
+	font-weight: 600;
+}
+
 .color-bg h6 {
     color: #fff;
 		font-weight: 300;
@@ -635,6 +649,10 @@ h1.arrow span {
 	font-size:24px;
 	color: #8C8C8C;
 }
+.about-text p {
+	font-weight: 400;
+}
+
 .color-bg h1.arrow span {
     color: #FFE800;
 }
